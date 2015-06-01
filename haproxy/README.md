@@ -26,4 +26,4 @@ Unit testing:
 
 License and Authors
 -------------------
-Authors: TODO: List authors
+Kristopher Vincent - @kbvincent
