@@ -9,8 +9,11 @@ provisioner:
 platforms:
   - name: ubuntu-14.04
   - name: centos-7.0
+  - name: centos-6.6
 
 suites:
   - name: haproxy
     run_list:
+      - recipe[test-helper::default]
       - recipe[haproxy::default]
+

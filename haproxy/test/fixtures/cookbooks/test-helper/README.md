@@ -1,0 +1,1 @@
+Provides usable node information as a temp json file.

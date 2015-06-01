@@ -16,4 +16,3 @@ listen www 0.0.0.0:<%= node["haproxy"]["incoming_port"] %>
     option httpclose
     option forwardfor
     server www1 10.0.0.1:<%= node["haproxy"]["outbound_port"] %> check
-    server www2 10.0.0.2:<%= node["haproxy"]["outbound_port"] %> check

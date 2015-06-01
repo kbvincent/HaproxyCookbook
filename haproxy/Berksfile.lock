@@ -1,0 +1,10 @@
+DEPENDENCIES
+  haproxy
+    path: .
+    metadata: true
+  test-helper
+    path: test/fixtures/cookbooks/test-helper
+
+GRAPH
+  haproxy (0.0.0)
+  test-helper (0.0.1)

@@ -1,67 +1,28 @@
 haproxy Cookbook
 ================
-TODO: Enter the cookbook description here.
+Basic Haproxy Configuration using Chef.
+Includes Unit Tests and Integration Testing
 
-e.g.
-This cookbook makes your favorite breakfast sandwich.
-
-Requirements
+Tools
 ------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
-
-e.g.
-#### packages
-- `toaster` - haproxy needs toaster to brown your bagel.
-
-Attributes
-----------
-TODO: List your cookbook attributes here.
-
-e.g.
-#### haproxy::default
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['haproxy']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+Chef
+Vagrant
+Kitchen
+ChefSpec
+VirtualBox
 
 Usage
 -----
-#### haproxy::default
-TODO: Write usage instructions for each cookbook.
+Integration Testing:
 
-e.g.
-Just include `haproxy` in your node's `run_list`:
+| OS           | Command                            |
+|:-------------|:-----------------------------------|
+| Centos 7.0   | `kitchen test haproxy-centos-70`   |
+| Centos 6.6   | `kitchen test haproxy-centos-66`   |
+| ubuntu-14.04 | `kitchen test haproxy-ubuntu-1404` |
 
-```json
-{
-  "name":"my_node",
-  "run_list": [
-    "recipe[haproxy]"
-  ]
-}
-```
-
-Contributing
-------------
-TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
-
-e.g.
-1. Fork the repository on Github
-2. Create a named feature branch (like `add_component_x`)
-3. Write your change
-4. Write tests for your change (if applicable)
-5. Run the tests, ensuring they all pass
-6. Submit a Pull Request using Github
+Unit testing:
+ `rspec`
 
 License and Authors
 -------------------
