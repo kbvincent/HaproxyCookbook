@@ -1,0 +1,6 @@
+---
+hostname: 127.0.0.1
+port: '2202'
+username: vagrant
+ssh_key: /Users/brettlocal/.chef/cookbooks/haproxy/.kitchen/kitchen-vagrant/kitchen-haproxy-haproxy-ubuntu-1404/.vagrant/machines/default/virtualbox/private_key
+last_action: create
