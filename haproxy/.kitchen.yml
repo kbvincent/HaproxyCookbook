@@ -1,7 +1,7 @@
 driver:
   name: vagrant
   synced_folders:
-      - ["../", "/tmp/kitchen/cookbooks"]
+      - ["../", "/cookbooks"]
 
 provisioner:
   name: chef_solo
