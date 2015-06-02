@@ -22,7 +22,7 @@ Integration Testing:
 | ubuntu-14.04 | `kitchen test haproxy-ubuntu-1404` |
 
 Unit testing:
- `rspec`
+ `chef exec rspec`
 
 License and Authors
 -------------------
